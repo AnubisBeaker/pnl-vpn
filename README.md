@@ -93,31 +93,6 @@ You can then run `terraform init`, `terraform plan`, `terraform apply` to build 
 To take down the VPN server run `terraform destroy`.
 
 
-### Adding new vpn clients
-You can create new VPN keys for additional clients by running the following command
-
-`ssh root@MachineB 'bash -s' < vpn-add-client.sh`
-
-### Changing the VPN region
-Before running the terraform commands you can change the digitalocean.tf file and update it to a different deployment region.
-
-In the droplet section change the region to any supported DO slug.
-```
-region             = "nyc1"
-```
-
-Example DO regions
-```
-New York City: "nyc1"
-Amsterdam: "ams3"
-San Francisco: "sfo3"
-Singapore: "sgp1"
-London: "lon1"
-Frankfurt: "fra1"
-Toronto: "tor1"
-Bangalore: "blr1"
-```
-
 ### Wireguard Client
 Once the VPN server is deployed you will have received your client configuration file via email.
 You will need to download a Wireguard VPN client from your devices app store onto your device.
@@ -145,4 +120,29 @@ It is also possible to see the VPN details and change the name to something more
 
 <img src="docs/imgs/wireguard-setup.png" width="250" />
 
+
+### Adding new vpn clients
+You can create new VPN keys for additional clients by running the following command
+
+`ssh root@MachineB 'bash -s' < vpn-add-client.sh`
+
+### Changing the VPN region
+Before running the terraform commands you can change the digitalocean.tf file and update it to a different deployment region.
+
+In the droplet section change the region to any supported DO slug.
+```
+region             = "nyc1"
+```
+
+Example DO regions
+```
+New York City: "nyc1"
+Amsterdam: "ams3"
+San Francisco: "sfo3"
+Singapore: "sgp1"
+London: "lon1"
+Frankfurt: "fra1"
+Toronto: "tor1"
+Bangalore: "blr1"
+```
 
