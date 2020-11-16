@@ -123,7 +123,7 @@ Once the VPN server is deployed you will have received your client configuration
 You will need to download a Wireguard VPN client from your devices app store onto your device.
 
 
-[WireGuard Installation]("https://www.wireguard.com/install/")
+[WireGuard Installation](https://www.wireguard.com/install/)
 
 You can then import your VPN configuration into the app and connect your device to the VPN.
 
