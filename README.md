@@ -117,3 +117,27 @@ Frankfurt: "fra1"
 Toronto: "tor1"
 Bangalore: "blr1"
 ```
+
+### Wireguard Client
+Once the VPN server is deployed you will have received your client configuration file via email.
+You will need to download a Wireguard VPN client from your devices app store onto your device.
+
+
+[WireGuard Installation]("https://www.wireguard.com/install/")
+
+You can then import your VPN configuration into the app and connect your device to the VPN.
+
+WireGuard Setup.  Select the `+` button to import a new configuration.
+![Empty Config](docs/imgs/wireguard-empty-client.png)
+
+Select to "Import From File or Archive"
+![Import File](docs/imgs/wireguard-import-from-file.png)
+
+Select the `.conf` file received by email once the VPN server has completed its installation.
+Once loaded in the VPN instance will be listed in the WireGuard client.
+![Enabled](docs/imgs/wireguard-loaded-in.png)
+You can now toggle the VPN on and off to access your secure network.
+It is also possible to see the VPN details and change the name to something more human readable.
+![Details](docs/imgs/wireguard-setup.png)
+
+
