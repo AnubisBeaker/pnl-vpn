@@ -136,6 +136,7 @@ Select to "Import From File or Archive"
 Select the `.conf` file received by email once the VPN server has completed its installation.
 Once loaded in the VPN instance will be listed in the WireGuard client.
 ![Enabled](docs/imgs/wireguard-loaded-in.png)
+<img src="docs/imgs/wireguard-loaded-in.png" width="250" />
 You can now toggle the VPN on and off to access your secure network.
 It is also possible to see the VPN details and change the name to something more human readable.
 ![Details](docs/imgs/wireguard-setup.png)
