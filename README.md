@@ -128,17 +128,21 @@ You will need to download a Wireguard VPN client from your devices app store ont
 You can then import your VPN configuration into the app and connect your device to the VPN.
 
 WireGuard Setup.  Select the `+` button to import a new configuration.
-![Empty Config](docs/imgs/wireguard-empty-client.png)
+
+<img src="docs/imgs/wireguard-empty-client.png" width="250" />
 
 Select to "Import From File or Archive"
-![Import File](docs/imgs/wireguard-import-from-file.png)
+
+<img src="docs/imgs/wireguard-import-from-file.png" width="250" />
 
 Select the `.conf` file received by email once the VPN server has completed its installation.
 Once loaded in the VPN instance will be listed in the WireGuard client.
-![Enabled](docs/imgs/wireguard-loaded-in.png)
+
 <img src="docs/imgs/wireguard-loaded-in.png" width="250" />
+
 You can now toggle the VPN on and off to access your secure network.
 It is also possible to see the VPN details and change the name to something more human readable.
-![Details](docs/imgs/wireguard-setup.png)
+
+<img src="docs/imgs/wireguard-setup.png" width="250" />
 
 
